@@ -13,6 +13,8 @@ public class War {
         Monkey m2=new Monkey("第2个小悟空");  //创建第2个小悟空对象
         Monkey m3=new Monkey("第3个小悟空");  //创建第3个小悟空对象
 
+
+
         Thread t1=new Thread(m1);  //创建第1个小悟空线程对象
         Thread t2=new Thread(m2);  //创建第2个小悟空线程对象
         Thread t3=new Thread(m3);  //创建第3个小悟空线程对象
