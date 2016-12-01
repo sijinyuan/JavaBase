@@ -21,5 +21,6 @@ public class Monkey implements Runnable {
     @Override
     public void run() {
         fight();
+
     }
 }

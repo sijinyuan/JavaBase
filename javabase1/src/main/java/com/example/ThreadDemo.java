@@ -20,6 +20,9 @@ package com.example;
           优先级范围1~10.
           void setPriority(int newPriority)   更改线程的优先级。
 */
+
+
+
 public class ThreadDemo extends Thread {
     public static void main(String[] args) {
         TalkThread t = new TalkThread();
